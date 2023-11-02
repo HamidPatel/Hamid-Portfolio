@@ -1,0 +1,24 @@
+body{
+    /* background-color: rgb(255, 243, 227); */
+    
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+.max-width1{
+    max-width: 90%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.max-width2{
+    max-width: 85%;
+    margin: auto;
+}

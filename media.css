@@ -1,0 +1,55 @@
+@media ( max-width:380px ) {
+    body{
+        /* overflow:scroll; */
+        overflow-x: hidden;
+    }
+    .header{
+        padding: 0 19px;
+
+    }
+    .leftnav{
+        font-size: 19px;
+    }
+    .rightnav ul{
+        display: none;
+    }
+    .rightnav i{
+        display: initial;
+        font-size: 30px;
+    }
+    .main h1{
+        font-size: 22px;
+    }
+    .about{
+        flex-direction: column;
+        /* width: 100vw; */
+        height: 100%;
+        max-width: 90%;
+         margin: auto;
+        
+    }
+    .aboutsection{
+        height: 100%;
+       /* overflow-x: scroll; */
+    }
+    
+    .leftabout{
+        width: 100%;
+        
+    }
+    .rightabout{
+        width: 100%;
+        
+    }
+    .pimg img{
+        margin:0 15px ;
+    }
+    .details{
+        margin:20px 12px ;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .skill{
+        line-height: 25px;
+    }
+  }
