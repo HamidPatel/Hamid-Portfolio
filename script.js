@@ -16,3 +16,9 @@ window.onscroll = () => {
         };
     });
 };
+let nav = document.querySelector(".rightnav");
+let hamburger = document.querySelector(".rightnav i");
+
+hamburger.addEventListener("click", () => {
+  ul.classList.toggle("active-toggle");
+});
