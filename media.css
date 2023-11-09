@@ -5,13 +5,26 @@
     }
     .header{
         padding: 0 19px;
-height:200px
+height:200px;
+        position:relative;
     }
     .leftnav{
         font-size: 39px;
     }
+    .rightnav{
+        position:absolute;
+        background-color:bisque;
+        left:-100%;
+        top:100%;
+        width:100%;
+        padding-block:20px;
+    }
+    .active-toggle{
+        left:0;
+    }
     .rightnav ul{
-        display: none;
+        flex-direction: column;
+        
     }
     .rightnav i{
         display: initial;
