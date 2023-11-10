@@ -16,9 +16,9 @@ window.onscroll = () => {
         };
     });
 };
-let nav = document.querySelector(".rightnav");
+let nav = document.querySelector(".rightnav ul");
 let hamburger = document.querySelector(".rightnav i");
 
 hamburger.addEventListener("click", () => {
-  ul.classList.toggle("active-toggle");
+  nav.classList.toggle('active-toggle');
 });
