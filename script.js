@@ -20,5 +20,5 @@ let nav = document.querySelector(".header");
 let hamburger = document.querySelector("#ham");
 
 hamburger.addEventListener("click", () => {
-  header.classList.toggle("act");
+  nav.classList.toggle("act");
 });
