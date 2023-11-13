@@ -3,10 +3,13 @@
         /* overflow:scroll; */
        /* overflow-x: hidden;*/
     }
+    .head{
+        position:relative;
+    }
     .header{
         padding: 0 19px;
 height:200px;
-        position:relative;
+        
     }
     .leftnav{
         font-size: 39px;
