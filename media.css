@@ -4,11 +4,11 @@
        /* overflow-x: hidden;*/
     }
     .head{
-        position:relative;
+/*         position:relative; */
     }
     .header{
         padding: 0 19px;
-height:200px;
+height:100px;
         
     }
     .leftnav{
