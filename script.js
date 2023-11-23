@@ -16,7 +16,7 @@ window.onscroll = () => {
         };
     });
 };
-let nav = document.querySelector(".header");
+let nav = document.querySelector(".rightnav ul");
 let hamburger = document.querySelector("#ham");
 
 hamburger.addEventListener("click", () => {
