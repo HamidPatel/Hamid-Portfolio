@@ -15,27 +15,31 @@ height:150px;
         font-size: 39px;
     }
     .rightnav{
-        
-    }
-    .act{
-        left:0;
-    }
-    .rightnav ul{
-        flex-direction: column;
         position:absolute;
         background-color:gray;
-        gap:23px;
+        gap:54px;
         text-align:center;
         left:-100%;
         top:100%;
         width:100vw;
         height:100vh;
         padding-block:20px;
+        font-size:74px;
         color:black;
+    }
+    .act{
+        left:0;
+    }
+    .rightnav ul{
+        flex-direction: column;
+        
     }
     .rightnav i{
         display: initial;
         font-size: 60px;
+    }
+    .main{
+        margin-top:0;
     }
     .main h1{
         font-size: 52px;
