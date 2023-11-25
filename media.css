@@ -4,7 +4,10 @@
        /* overflow-x: hidden;*/
     }
     .head{
-       position:relative; 
+       position:relative;
+         position: fixed;
+       top: 0;
+       width: 100%;
     }
     .header{
         padding: 0 19px;
