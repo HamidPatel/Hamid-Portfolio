@@ -34,7 +34,7 @@ height:150px;
         flex-direction: column;
         
     }
-    .rightnav i{
+    #ham{
         display: initial;
         font-size: 60px;
     }
