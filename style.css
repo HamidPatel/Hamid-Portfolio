@@ -58,16 +58,15 @@ flex-direction: column;
 .rightnav {
     margin-top: 15px;
     font-size: 21px;
-    margin-left:78vh;
-}
+   }
 
 .rightnav ul li {
     padding: 0 12px;
     cursor: pointer;
 }
 #ham{
-    font-size: 79px;
-    font-weight: 400;
+    font-size: 39px;
+    font-weight: 300;
     display: none;
     cursor: pointer;
 }
@@ -100,6 +99,7 @@ flex-direction: column;
 /* about section */
 .abt{
     margin: 75px 0;
+    
 }
 .leftabout{
     width:50%;
@@ -111,13 +111,16 @@ flex-direction: column;
 
 .aboutsection{
     margin: 51px 33px;
-    border: 3px solid burlywood; 
+    /* border: 3px solid burlywood;  */
     border-radius: 5px; 
     height:100% ; 
 }
 .about{
-    background-color: #fff;
-   
+    background-color: #dadada;
+    border: 3px solid burlywood; 
+border-radius: 5px;  
+    border-radius: 54px;
+    box-shadow: 10px 10px 10px;
     padding: 70px 0;
 }
 
@@ -164,7 +167,9 @@ flex-direction: column;
     padding: 24px 12px;
 border: 3px solid burlywood; 
 border-radius: 5px;  
-background-color: #fff;
+background-color: #dadada;
+border-radius: 54px;
+box-shadow: 10px 10px 10px;
 line-height: 55px;
 /* margin: 0 33px; */
 }
@@ -198,5 +203,74 @@ line-height: 55px;
   .skillbar{
     margin: 0 12px
   }
-  
+  .contact-section {
+   height: 100vh;
+   display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.contact{
+    width: 80vw;
+    background-color: #dadada;
+     /* height: 70vh; */
+     margin: 12vh 8vw;
+     border: 1px solid gray;
+      border-radius: 54px;
+     box-shadow: 10px 10px 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.left-contact {
+    width:45vw;
+}
+
+.left-contact img {
+    height: 314px;
+    margin: 66px 70px;
+    border-radius: 17px;
+}
+
+.right-contact {
+    width: 35vw;
+}
+
+.right-contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 74px 12px;
+}
+
+.right-contact .name {
+    width: 20vw;
+    margin: 12px 0;
+    border-radius: 17px;
+    padding: 12px 19px;
+    font-size: 15px;
+}
+
+.right-contact .Email {
+    width: 20vw;
+    margin: 12px 0;
+    border-radius: 17px;
+    padding: 12px 19px;
+    font-size: 15px;
+}
+
+.right-contact .message {
+    border-radius: 17px;
+    width: 20vw;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.right-contact .contact-btn {
+    width: 61%;
+    margin: 12px 1px;
+    padding: 6px;
+    border-radius: 17px;
+    background-color: rgba(128, 128, 128, 0.767);;
+    cursor: pointer;
+}
  
