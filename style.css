@@ -58,6 +58,7 @@ flex-direction: column;
 .rightnav {
     margin-top: 15px;
     font-size: 21px;
+    margin-left:78vh;
 }
 
 .rightnav ul li {
