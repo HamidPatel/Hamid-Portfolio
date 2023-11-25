@@ -76,4 +76,29 @@ height:150px;
     .skill{
         line-height: 25px;
     }
+    .contact{
+        flex-direction: column;
+        height: auto;
+        margin: 12vw 12vw;
+        border-radius: 34px;
+    }
+    .left-contact img{
+        height:23vh;
+        margin: 54px 5vh;
+    }
+    .right-contact form {
+        margin: 11px -10px;
+    }
+    .right-contact .name {
+        width: 44vw;
+    }
+    .right-contact .Email {
+        width: 44vw;
+    }
+    .right-contact .message{
+        width: 44vw;
+    }
+    .right-contact .contact-btn {
+        width: 44vw;
+    }
   }
