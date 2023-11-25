@@ -26,6 +26,8 @@ height:150px;
         height:100vh;
         padding-block:20px;
         color:black;  
+        justify-content: center;
+          margin-top: -10px;
     }
     .act{
         left: 0;
