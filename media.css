@@ -17,18 +17,18 @@ height:150px;
     .rightnav{
         position:absolute;
         background-color:gray;
-        gap:54px;
-        text-align:center;
+         gap: 54px;
+    text-align:center;
+    font-size: 74px;
         left:-100%;
         top:100%;
         width:100vw;
         height:100vh;
         padding-block:20px;
-        font-size:74px;
-        color:black;
+        color:black;  
     }
     .act{
-        left:0;
+        left: 0;
     }
     .rightnav ul{
         flex-direction: column;
@@ -39,7 +39,7 @@ height:150px;
         font-size: 60px;
     }
     .main{
-        margin-top:0;
+        margin-top: 0;
     }
     .main h1{
         font-size: 52px;
@@ -102,3 +102,6 @@ height:150px;
         width: 44vw;
     }
   }
+  
+
+ 
